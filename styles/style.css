@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width: 1200px;
+	padding: 0px 10px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #222831;
+	border-radius: 30px;
+	margin-top: 50px !important;
+}
+
+
+.header-content{
+	display: flex;
+	align-items: center;
+}
+
+.header-text{
+	padding-left: 100px;
+	width: 50%;
+}
+
+.header-text h1{
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 80px;
+	color: #eeeeee;
+}
+
+.header-text p{
+	font-weight: 400;
+	font-size: 16px;
+	color: #eeeeee;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-right: 12px;
+}
+.header-text a{
+	font-weight: 400;
+	font-size: 20px;
+	color: #222831;
+	display: flex;
+	align-items: center;
+	background-color: #eeeeee;
+	border-radius: 5px;
+	padding: 14px 25px;
+	text-decoration: none;
+	width: fit-content;
+}
+.header-text a i{
+	margin-left: 10px;
+}
+
+.header-img{
+	width: 50%;
+	padding-right: 80px;
+	margin-top: 35px;
+}
+
+.header-img img{
+	width: 100%;
+	height: auto;
+}
+
+/* Middle section styles */
+#middle-section{
+	padding: 130px 0px;
+}
+
+.middle-content{
+	display: flex;
+	flex-direction: row;
+}
+
+.middle-menu{
+	width: 312px;
+}
+
+.middle-menu ul{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	background-color: #222831;
+	border-radius: 10px;
+}
+
+.middle-menu ul li{
+	background-color: #eeeeee;
+	border-radius: 10px;
+	list-style: none;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+.middle-menu ul li a{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #222831;
+	text-decoration: none;
+	padding: 17px 38px;
+	display: flex;
+	justify-content: center;
+}
+
+/* Blogs styles  */
+
+.menu-content {
+	margin-left: 24px;
+	flex:  1;
+}
+
+.menu-content .blogs{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 24px ;
+}
+
+.blog{
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #E8E8E8;
+}
+.blog .blog-thumbnail img{
+	width: 100%;
+	height: auto;
+}
+
+.blog-info{
+	padding: 20px;
+}
+.blog-info button{
+	font-weight: 500;
+	font-size: 16px; 
+	line-height: 24px;
+	color: #222831;
+	border: 1px solid #222831;
+	border-radius: 5px;
+	padding: 7px 16px;
+	margin-bottom: 15px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.blog .blog-info h2{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #222831;
+	margin-bottom: 20px;
+}
+
+.blog-info .blog-meta span{
+	font-size: 16px;
+	line-height: 26px;
+	color: #222831;
+	margin-right: 30px;
+}
+
+.blog-info .blog-meta span i{
+	margin-right: 10px;
+}
+
+/* Footer styles */
+
+footer{
+	background-color: #222831;
+	padding: 130px 0px;
+}
+.footer-content hr{
+	margin: 50px 0px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content h1{
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 60px;
+	color: #eeeeee;
+	text-align: center;
+
+}
+
+.footer-menu ul{
+	margin: 0px auto;
+	width: fit-content;
+}
+.footer-menu ul li {
+	display: table-cell;
+	padding: 0px 15px;
+}
+.footer-menu ul li a{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #eeeeee90;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+.footer-menu ul li a:hover{
+	color: #eeeeee;
+}
